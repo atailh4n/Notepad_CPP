@@ -128,8 +128,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="NotDefteri_CPP.cpp" />
-  </ItemGroup>
+    <ClCompile Include="NotDefteri_CPP/NotDefteri_CPP.cpp" />
+    <ClCompile Include="NotDefteri_CPP/AppFunctions.cpp" />
+    <ClCompile Include="NotDefteri_CPP/NoteStruct.cpp" />  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
